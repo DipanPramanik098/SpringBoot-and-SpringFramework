@@ -1,0 +1,112 @@
+# =========================
+# IDE Files
+# =========================
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# =========================
+# Build Directories
+# =========================
+target/
+build/
+out/
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Spring Boot
+# =========================
+*.pid
+*.pid.lock
+*.seed
+*.hprof
+
+# =========================
+# Application Config
+# (Ignore if contains secrets)
+# =========================
+application-local.properties
+application-local.yml
+application-local.yaml
+application-dev.properties
+application-dev.yml
+application-dev.yaml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Generated Files
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# Test Reports
+# =========================
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# Coverage Reports
+# =========================
+coverage/
+jacoco.exec
+/site/
+
+# =========================
+# Database Files
+# =========================
+*.db
+*.sqlite
+*.mv.db
+*.trace.db
+
+# =========================
+# Lombok
+# =========================
+.lombok/
+
+# =========================
+# Cache
+# =========================
+.cache/
